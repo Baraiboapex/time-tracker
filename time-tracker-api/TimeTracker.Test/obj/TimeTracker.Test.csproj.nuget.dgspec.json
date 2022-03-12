@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\dbail\\OneDrive\\Desktop\\time-tracker\\time-tracker-api\\TimeTracker.Data\\TimeTracker.Data.csproj": {}
+    "c:\\Users\\dbail\\OneDrive\\Desktop\\time-tracker\\time-tracker-api\\TimeTracker.Test\\TimeTracker.Test.csproj": {}
   },
   "projects": {
-    "c:\\Users\\dbail\\OneDrive\\Desktop\\time-tracker\\time-tracker-api\\TimeTracker.Data\\TimeTracker.Data.csproj": {
+    "c:\\Users\\dbail\\OneDrive\\Desktop\\time-tracker\\time-tracker-api\\TimeTracker.Test\\TimeTracker.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\dbail\\OneDrive\\Desktop\\time-tracker\\time-tracker-api\\TimeTracker.Data\\TimeTracker.Data.csproj",
-        "projectName": "TimeTracker.Data",
-        "projectPath": "c:\\Users\\dbail\\OneDrive\\Desktop\\time-tracker\\time-tracker-api\\TimeTracker.Data\\TimeTracker.Data.csproj",
+        "projectUniqueName": "c:\\Users\\dbail\\OneDrive\\Desktop\\time-tracker\\time-tracker-api\\TimeTracker.Test\\TimeTracker.Test.csproj",
+        "projectName": "TimeTracker.Test",
+        "projectPath": "c:\\Users\\dbail\\OneDrive\\Desktop\\time-tracker\\time-tracker-api\\TimeTracker.Test\\TimeTracker.Test.csproj",
         "packagesPath": "C:\\Users\\dbail\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\dbail\\OneDrive\\Desktop\\time-tracker\\time-tracker-api\\TimeTracker.Data\\obj\\",
+        "outputPath": "c:\\Users\\dbail\\OneDrive\\Desktop\\time-tracker\\time-tracker-api\\TimeTracker.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -24,6 +24,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,21 +43,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Identity": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[16.11.0, )"
             },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[3.1.0, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "xunit": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[2.4.1, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[2.4.3, )"
             }
           },
           "imports": [

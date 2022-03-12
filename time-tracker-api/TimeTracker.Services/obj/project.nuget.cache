@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KE9Bgq7Bc/Q8rSrjmKBBYVWMAIlDqYUmKrp7as9y2mdie4OdMJt16cJWVEjYxYxNkr/b34iObeRnyYoSJ85fTw==",
+  "dgSpecHash": "yvdCZQkemPo81AvQuezQRUO1+winpbLURBRTxCvyNsEO9IGImhVhMX7H85Hfc74eYNoslcKEzoxscOxYqCJzbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dbail\\OneDrive\\Desktop\\time-tracker\\time-tracker-api\\TimeTracker.Services\\TimeTracker.Services.csproj",
+  "projectFilePath": "c:\\Users\\dbail\\OneDrive\\Desktop\\time-tracker\\time-tracker-api\\TimeTracker.Services\\TimeTracker.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
