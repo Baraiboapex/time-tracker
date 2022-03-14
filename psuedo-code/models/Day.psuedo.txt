@@ -1,0 +1,15 @@
+using System.Collections.IEnumerable;
+using System;
+
+namespace TimeTracker.Data.Models
+{
+    public class Day : BaseEntity
+    {
+        public DateTime Date {get; set;}
+		public string DayOfTheWeek {get; set;}
+		public bool HasDayOff {get; set;}
+        public virtual ICollection<Hour> Hours {get; set;}
+		
+		//What else do we need for the Day model???
+    }
+}
